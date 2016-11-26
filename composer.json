@@ -17,5 +17,10 @@
             "name": "Michael Heap",
             "email": "m@michaelheap.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "mheap\\": "src"
+        }
+    }
 }
